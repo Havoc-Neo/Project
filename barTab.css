@@ -1,0 +1,26 @@
+/*Change bar highlight color by background*/
+.bar a:hover {
+    background: aqua;
+    color: white;
+}
+.bar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+}
+
+.bar a {
+    display: block;
+    font-style: italic;
+    float: left; 
+    font-size: x-large;
+    margin-left: 80px;
+    padding: 14px 16px;   
+    color: whitesmoke;
+    text-decoration: none;
+}
+.main {
+    margin-top: 20px;
+}

@@ -1,0 +1,26 @@
+/*This changes the background color of the website*/
+body {
+    background-color: rgba(0, 0, 0, 0.842);
+    font-size: 18px;
+}
+
+/*this changes the color of the first h1 which could be given a id or class but theres no point*/
+h1 {
+    color: whitesmoke;
+    text-align: center;
+    margin: 10px;
+}
+/*
+this is the about part of the website and changes the color
+note to change fontzise or font family
+*/
+#About, .Ingredients, #Directions {
+    color: whitesmoke;
+}
+
+header {
+    position: fixed;
+}
+#picture {
+    margin: auto;
+}
