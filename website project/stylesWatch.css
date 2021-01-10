@@ -1,0 +1,26 @@
+body {
+    background-color: rgba(0, 0, 0, 0.842);
+}
+#draw {
+    color: whitesmoke;
+}
+.container {
+    height: 300px;
+    width: 100%;
+}
+#display {
+    width: 100%;
+    font-size: 70px;
+    text-align: center;
+    margin: 120px auto;
+    color: whitesmoke;
+}
+.button {
+    text-align: center;
+    margin: -90px;
+    display: block;
+    font-style: italic;
+    font-size: x-large;
+    padding: 14px 16px;   
+    color: whitesmoke;
+}

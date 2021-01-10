@@ -1,0 +1,23 @@
+
+body {
+    background-color: rgba(0, 0, 0, 0.842);
+    /*
+    background-image: url(https://i1.wp.com/surreyedit.com/wp-content/uploads/2014/04/cinnamon-buns.jpg);
+    */
+}
+
+#about, .ingredients, .directions, .filling, .source {
+    color: whitesmoke;    
+    text-align: center;
+    list-style-position: inside;
+}
+.ref {
+    color: red;
+}
+#picture {
+    width: 100px;
+}
+#picture img {
+    width: 1550px;
+    height: 700px;
+}

@@ -1,0 +1,19 @@
+body {
+    background-color: rgba(0, 0, 0, 0.842);
+}
+#chilli, .ingredients, .directions, .source {
+    color: whitesmoke;
+    text-align: center;
+    list-style-position: inside;
+}
+.ref {
+    color: red;
+}
+#picture {
+    width: 100px;
+}
+/*Instead of adding another id we can just go into that id and select the img in that id*/
+#picture img {
+    width: 1550px;
+    height: 700px;
+}

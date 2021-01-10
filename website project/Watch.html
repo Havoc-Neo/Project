@@ -1,0 +1,32 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link href="stylesWatch.css" rel="stylesheet">
+    <link href="barTab.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="watch.js"></script>
+</head>
+<body onload="draw();">
+    <header>
+        <nav>
+            <div class="bar">
+                <a href="index.html">Main Menu</a>
+                <a href="chilliRecipe.html">Chilli Recipe</a>
+                <a href="cinnamon.html">Cinnamon Buns</a>
+                <a href="Watch.html">Stop Watch</a>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <div id="display">
+            00:00:00
+        </div>
+        <div class="button" onclick="clicked()">
+            <button id="start" onclick="start()">Start</button> 
+            <button id="refresh" onclick="refresh()">refresh</button>
+        </div>
+    </div>
+</body>
+</html>
